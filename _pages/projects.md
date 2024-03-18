@@ -39,18 +39,18 @@ Download: todo
 
 See also my [GitHub](https://github.com/sam-vasquez).
 
-## Stellar Core Collapse Simulation 
+## Stellar Core Collapse Simulation (Work In Progress)
 A python script that performs a three-dimensional n-body simulation using a
 particle mesh method, designed with mpi4py for performance and scalability.
 
-Download: todo
+[Download](https://github.com/sam-vasquez/PM-Stellar-Collapse)
 
-## Machine Learning Notebooks 
+## Machine Learning Notebooks (Work In Progress)
 A collection of Jupyter notebooks to follow along with the review paper [A
 High-bias, Low-variance Introduction to Machine Learning for
 Physicists](https://physics.bu.edu/~pankajm/MLnotebooks.html).  Some
 inspiration is also taken from the tutorials for Perimeter Institute's 2023
 course [Machine Learning for Many-Body Physics](https://pirsa.org/c23011).
 
-Download: todo
+[Download](https://github.com/sam-vasquez/PhysMLNotebooks)
 
