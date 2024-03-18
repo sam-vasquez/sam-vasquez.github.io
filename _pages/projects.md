@@ -29,18 +29,28 @@ gallery2:
     title: ""
 ---
 
-This page is under construction while I upload my previous work to my github
-portfolio.
-
+<!--
 ## Laplace Equation Solver
 A short C script that solves Laplace's equation in the bulk of a cube according to
 boundary temperatures, designed with OpenMP and OpenACC for scalability.
-{% include gallery id="gallery1" %}
+ include gallery id="gallery1" 
+Download: todo
+-->
+
+See also my [GitHub](https://github.com/sam-vasquez).
+
+## Stellar Core Collapse Simulation 
+A python script that performs a three-dimensional n-body simulation using a
+particle mesh method, designed with mpi4py for performance and scalability.
+
 Download: todo
 
-## Stellar Core Collapse Simulation
-A python script that performs a three-dimensional n-body simulation using a
-particle mesh method, designed with mpi4py for performance.
-{% include gallery id="gallery2" %}
+## Machine Learning Notebooks 
+A collection of Jupyter notebooks to follow along with the review paper [A
+High-bias, Low-variance Introduction to Machine Learning for
+Physicists](https://physics.bu.edu/~pankajm/MLnotebooks.html).  Some
+inspiration is also taken from the tutorials for Perimeter Institute's 2023
+course [Machine Learning for Many-Body Physics](https://pirsa.org/c23011).
+
 Download: todo
 
