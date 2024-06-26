@@ -27,8 +27,6 @@ subject with students. I have taught the following:
 - F22: CMU Physics Department Tutoring - 3rd Year Core Classes
 - F21: CMU Physics 141 Teaching Assistant - 1st Year Mechanics 
 
-I am also a tutor on Wyzant. 
-
 My coursework in computational physics led me to develop a few programming
 projects. I have continued to maintain and expand on these projects to
 incorporate self-taught techniques in machine learning and optimization for
