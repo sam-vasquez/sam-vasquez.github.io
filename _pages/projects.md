@@ -30,7 +30,7 @@ gallery2:
 ---
 
 See also my [GitHub](https://github.com/sam-vasquez).
-Note: Migration to GitHub is currently a work in
+Please note: Migration to GitHub is currently a work in
 progress.
 
 ## Laplace Equation Solver
@@ -39,7 +39,7 @@ boundary temperatures, designed with OpenMP and OpenACC for scalability.
  include gallery id="gallery1" 
 Download: todo
 
-## Stellar Core Collapse Simulation (Work In Progress)
+## Stellar Core Collapse Simulation 
 A python script that performs a three-dimensional n-body simulation using a
 particle mesh method, designed with mpi4py for performance and scalability.
 
@@ -54,7 +54,7 @@ sampler.
 
 Download: todo
 
-## Machine Learning Notebooks (Work In Progress)
+## Machine Learning Notebooks 
 A collection of Jupyter notebooks to follow along with the review paper [A
 High-bias, Low-variance Introduction to Machine Learning for
 Physicists](https://physics.bu.edu/~pankajm/MLnotebooks.html).  Some
