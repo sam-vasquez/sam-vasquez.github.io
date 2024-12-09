@@ -6,6 +6,7 @@ collection: notes
 title: "Exact Solution to Linear Regression"
 permalink: /note/Exact-Solution-to-Linear-Regression/
 ---
+
 > [!thm] Exact Solution to Linear Regression
 > The most optimal solution $\mathbf{w}$ to the least-squares fit in linear regression,
 > $$

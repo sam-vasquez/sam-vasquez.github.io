@@ -14,7 +14,7 @@ $$
 
 Simple gradient descent chooses $\Delta w_{i;t}$ at each iteration $t$ according to the following equations:
 $$
-\Delta w_{i; t} = - \eta \partial_{w_i} \mathcal{L}[\omega_{i; t}]
+\Delta w_{i; t} =  \eta \partial_{w_i} \mathcal{L}[\omega_{i; t}]
 $$
 $$
 w_{i; t+1} = w_{i; t} - \Delta w_{i; t}

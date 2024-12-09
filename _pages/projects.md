@@ -29,21 +29,30 @@ gallery2:
     title: ""
 ---
 
-<!--
+See also my [GitHub](https://github.com/sam-vasquez).
+Note: Migration to GitHub is currently a work in
+progress.
+
 ## Laplace Equation Solver
 A short C script that solves Laplace's equation in the bulk of a cube according to
 boundary temperatures, designed with OpenMP and OpenACC for scalability.
  include gallery id="gallery1" 
 Download: todo
--->
-
-See also my [GitHub](https://github.com/sam-vasquez).
 
 ## Stellar Core Collapse Simulation (Work In Progress)
 A python script that performs a three-dimensional n-body simulation using a
 particle mesh method, designed with mpi4py for performance and scalability.
 
-[Download](https://github.com/sam-vasquez/PM-Stellar-Collapse)
+<!-- [Download](https://github.com/sam-vasquez/PM-Stellar-Collapse) -->
+Download: todo
+
+## Hamiltonian Monte Carlo Integration
+An implementation of the [Hamiltonian Monte
+Carlo](https://en.wikipedia.org/wiki/Hamiltonian_Monte_Carlo)
+algorithm in C++ as a Markov Chain Monte Carlo
+sampler.
+
+Download: todo
 
 ## Machine Learning Notebooks (Work In Progress)
 A collection of Jupyter notebooks to follow along with the review paper [A
@@ -52,5 +61,6 @@ Physicists](https://physics.bu.edu/~pankajm/MLnotebooks.html).  Some
 inspiration is also taken from the tutorials for Perimeter Institute's 2023
 course [Machine Learning for Many-Body Physics](https://pirsa.org/c23011).
 
-[Download](https://github.com/sam-vasquez/PhysMLNotebooks)
+<!-- [Download](https://github.com/sam-vasquez/PhysMLNotebooks) -->
+Download: todo
 

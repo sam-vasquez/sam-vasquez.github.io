@@ -3,7 +3,7 @@ import os
 import re
 
 def convert_to_url(title):
-    urltitle = title.replace(" ","-").replace("=","-eq-").replace("≥","geq").replace("(","").replace(")","")
+    urltitle = title.replace(" ","-").replace("=","-eq-").replace("≥","geq").replace("(","").replace(")","").replace("'","")
     return urltitle
 
 def cleanup_content(content):

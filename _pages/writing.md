@@ -23,5 +23,9 @@ This is a collection of notes I have taken while learning physics. They are main
 
 [Index](/notes/)
 
-They are uploaded here for convenience of reference, but they were originally written in [Obsidian](https://obsidian.md). It would be more natural to view these notes and their connections through an Obsidian vault. A copy of my Obsidian vault can be found [here](https://github.com/sam-vasquez/Physics-Obsidian-Vault).
-
+They are uploaded here for convenience of
+reference, but they were originally written in
+[Obsidian](https://obsidian.md). It would be more
+natural to view these notes and their connections
+through an Obsidian vault. A copy of my Obsidian
+vault can be found here: TODO
