@@ -47,3 +47,24 @@ If $\mu_1 > \mu_2$, $\Delta n_1 < 0$.
 If $\mu_1 < \mu_2$, $\Delta n_1 > 0$.
 
 It is generally observed that at high temperatures, the chemical potential becomes large and negative. This is because $\mu = \frac{G}{N}$, where $G = U + pV - TS$, entropy itself becomes large at high temperatures, and the $TS$ term dominates. 
+
+Chemical potential usually written as a sum of contributions from different sectors of Hamiltonian. See Stat Mech problems 30, etc. Todo, locate these problems.
+
+Chemical potential of an ideal solution can be written in terms of its concentration inside the standard background. Todo, derive from sackur tetrode.
+$$
+\mu_i = \mu^\circ + k_B T \ln\left( \frac{\rho_i}{\rho^\circ} \right).
+$$
+Non-ideal behavior of the solution is described via the activity coefficient $\gamma(\rho_i,T)$, where $\gamma = 1$ defines the ideal solution.
+$$
+\mu_i = \mu^\circ + k_B T \ln\left( \gamma_i \frac{\rho_i}{\rho^\circ} \right).
+$$
+Writing the condition for chemical equilibrium of a reaction with coefficients $v_i$ as  
+$$
+\prod_i \lambda_i^{v_i} = 1,
+$$
+absolute activity $\lambda_i = e^{ \beta \mu_i }$, we get $e^{ \beta (\mu_i - \mu^\circ) } = \gamma \frac{\rho_i}{\rho^\circ} = \lambda_i$. The activity coefficient characterizes the non-linear relationship between the concentration of the species and its chemical activity.
+When the interaction terms in the thermodynamic potential, in practice usually the free energy, are isolated, $F = F_{\textrm{ideal}} + F_{\textrm{non-ideal}}$, the activity coefficient is simply the chemical potential contribution from that term:
+$$
+k_B T \ln(\gamma_i) = \left( \frac{\partial F_{\textrm{non-ideal}}}{\partial N_i} \right)_{T,V}.
+$$
+See Stat mech problem 30 for demonstration with an electrolytic solution.

@@ -42,3 +42,5 @@ the exponential term becomes much larger than unity, and the difference between 
 $$
 \langle n_j \rangle = e^{ - \beta \epsilon_j } e^{ \beta \mu }.
 $$
+
+Contrast with a system of interacting bosons: [[Superfluid]] 

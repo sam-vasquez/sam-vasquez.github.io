@@ -6,7 +6,7 @@ permalink: /note/Projective-Measurement/
 A projective measurement is a technique developed for quantum state measurement with respect to an operator $\mathcal{O}$ that leaves the output in the eigenstate. This depends on $\mathcal{O}$ being unitary and Hermitian, and it is a special case of the [[Hadamard Test]] which applies to unitary only.
 
 The measurement is done using the following circuit:
-![[circuit_projmeas.png|300]] 
+![[Projective Measurement Circuit.png|300]] 
 The action of the unitary gates is
 $$
 \begin{align}

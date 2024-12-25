@@ -9,4 +9,4 @@ Normalized using Pfaffian. Determined via CFT. Not describable using ordinary sl
 
 Has to do with p + ip superconductor and conformal field theory. For CFT, see section 13.1 of reference.
 
-Reference: Anyons and the quantum Hall effect— A pedagogical review
+Reference: [[(2008) Anyons and the quantum Hall effect—A pedagogical review]]
