@@ -1,4 +1,6 @@
 ---
+tags:
+  - Quantum-Information
 collection: notes
 title: "GHZ State Violation"
 permalink: /note/GHZ-State-Violation/

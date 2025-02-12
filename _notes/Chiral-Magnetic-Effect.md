@@ -1,4 +1,6 @@
 ---
+tags:
+  - QFT
 collection: notes
 title: "Chiral Magnetic Effect"
 permalink: /note/Chiral-Magnetic-Effect/

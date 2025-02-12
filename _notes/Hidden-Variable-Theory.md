@@ -1,4 +1,6 @@
 ---
+tags:
+  - Quantum-Information
 collection: notes
 title: "Hidden Variable Theory"
 permalink: /note/Hidden-Variable-Theory/

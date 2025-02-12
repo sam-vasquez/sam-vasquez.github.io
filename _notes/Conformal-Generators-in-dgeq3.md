@@ -1,21 +1,19 @@
 ---
 tags:
-  - theorem
-  - Conformal-Bootstrap
+  - Rep-Theory
 collection: notes
 title: "Conformal Generators in d≥3"
 permalink: /note/Conformal-Generators-in-dgeq3/
 ---
-> [!thm] Conformal Generators in $d\geq3$
-> The generators of the conformal Lie algebra corresponding to the [[Conformal Killing Vectors in d≥3|conformal Killing vectors in $d\geq3$]] are as follows:
-> $$
-> \begin{align}
-> P_\mu &= -i\partial_\mu \\
-> M_{\mu\nu} &= -i \left( x_\nu \partial_\mu - x_\mu \partial_\nu \right)\\
-> D &= -i x^\mu \partial_\mu \\
-> K_\mu &= -i \left( 2(x \cdot \partial)x_\mu - x^2\partial_\mu \right).
-> \end{align}
-> $$
+The generators of the conformal Lie algebra corresponding to the [[Conformal Killing Vectors in d≥3|conformal Killing vectors in $d\geq3$]] are as follows:
+$$
+\begin{align}
+P_\mu &= -i\partial_\mu \\
+M_{\mu\nu} &= -i \left( x_\nu \partial_\mu - x_\mu \partial_\nu \right)\\
+D &= -i x^\mu \partial_\mu \\
+K_\mu &= -i \left( 2(x \cdot \partial)x_\mu - x^2\partial_\mu \right).
+\end{align}
+$$
 
 #### Proof:
 

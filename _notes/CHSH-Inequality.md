@@ -1,4 +1,6 @@
 ---
+tags:
+  - Quantum-Information
 collection: notes
 title: "CHSH Inequality"
 permalink: /note/CHSH-Inequality/

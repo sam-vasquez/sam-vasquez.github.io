@@ -1,25 +1,23 @@
 ---
 tags:
   - ML
-  - theorem
 collection: notes
 title: "Bias-Variance Decomposition"
 permalink: /note/Bias-Variance-Decomposition/
 ---
-> [!thm] Bias-Variance Decomposition
-> The mean squared error of a predictor $\hat{f}(x;\hat{w}_\mathcal{D})$ trained on a dataset $\mathcal{D}$ can be decomposed into a bias term, a variance term, and a noise term.
-> The bias term is 
-> $$ 
-> Bias^2 = \sum_a \left( f(x^a) - \mathbb{E}_\mathcal{D} [\hat{f}(x^a;\hat{w}_\mathcal{D})] \right)^2, 
-> $$
-> the variance term is
-> $$ 
-> Var = \sum_a \mathbb{E}_\mathcal{D} \left[ \left( \hat{f}(x^a ; \hat{w}_\mathcal{D}) - \mathbb{E}_\mathcal{D}[\hat{f}(x^a ; \hat{w}_\mathcal{D})] \right)^2 \right], 
-> $$
-> and the noise term is
-> $$ 
-> Noise = \sum_a \sigma_\epsilon^2. 
-> $$
+The mean squared error of a predictor $\hat{f}(x;\hat{w}_\mathcal{D})$ trained on a dataset $\mathcal{D}$ can be decomposed into a bias term, a variance term, and a noise term.
+The bias term is 
+$$ 
+Bias^2 = \sum_a \left( f(x^a) - \mathbb{E}_\mathcal{D} [\hat{f}(x^a;\hat{w}_\mathcal{D})] \right)^2, 
+$$
+the variance term is
+$$ 
+Var = \sum_a \mathbb{E}_\mathcal{D} \left[ \left( \hat{f}(x^a ; \hat{w}_\mathcal{D}) - \mathbb{E}_\mathcal{D}[\hat{f}(x^a ; \hat{w}_\mathcal{D})] \right)^2 \right], 
+$$
+and the noise term is
+$$ 
+Noise = \sum_a \sigma_\epsilon^2. 
+$$
 
 #### Proof:
 We can decompose this expectation value as follows:

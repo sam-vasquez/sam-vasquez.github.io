@@ -1,4 +1,6 @@
 ---
+tags:
+  - Rep-Theory
 collection: notes
 title: "Canonical Quantization"
 permalink: /note/Canonical-Quantization/

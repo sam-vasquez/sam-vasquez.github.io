@@ -1,4 +1,6 @@
 ---
+tags:
+  - Quantum-Information
 collection: notes
 title: "Bell States"
 permalink: /note/Bell-States/

@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Chemical Potential"
 permalink: /note/Chemical-Potential/

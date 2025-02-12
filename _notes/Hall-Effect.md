@@ -1,4 +1,6 @@
 ---
+tags:
+  - EM
 collection: notes
 title: "Hall Effect"
 permalink: /note/Hall-Effect/

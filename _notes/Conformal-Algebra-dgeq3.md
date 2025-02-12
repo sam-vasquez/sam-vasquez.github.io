@@ -1,6 +1,6 @@
 ---
 tags:
-  - Conformal-Bootstrap
+  - Rep-Theory
 collection: notes
 title: "Conformal Algebra (d≥3)"
 permalink: /note/Conformal-Algebra-dgeq3/

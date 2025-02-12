@@ -1,12 +1,13 @@
 ---
+tags:
+  - Probability-Theory
 collection: notes
 title: "Aperiodic and Irreducible Chains Mix All States in Finite Time"
 permalink: /note/Aperiodic-and-Irreducible-Chains-Mix-All-States-in-Finite-Time/
 ---
-> [!thm] Aperiodic and Irreducible Chains Mix All States in Finite Time
-> If $P$ is aperiodic and irreducible, then there is an integer $r_0$ such that $P^r_{ij} > 0$ for all $x_i, x_j \in \mathcal{X}$ and $r \geq r_0$.
+If $P$ is aperiodic and irreducible, then there is an integer $r_0$ such that $P^r_{ij} > 0$ for all $x_i, x_j \in \mathcal{X}$ and $r \geq r_0$.
 
-**Proof**
+**Proof:**
 For each $x_i \in \mathcal{X}$, recall that $\mathcal{T}(x_i) = \{ t \geq 1 | P^t_{ii} > 0 \}$. Since the chain is aperiodic, the gcd of $\mathcal{T}(x_i)$ is 1.
 
 The set $\mathcal{T}(x_i)$ is closed under addition: If one cycle can return to $x_i$ in $n$ steps and another in $m$ steps, there is a cycle that returns to $x_i$ in $n+m$ steps. Formally, if $n,m \in \mathcal{T}(x_i)$, then $P^{n+m}_{ii} = \sum_j P^n_{ij} P^m_{ji} \geq \sum_j P^n_{ii} P^m_{ii} > 0$.

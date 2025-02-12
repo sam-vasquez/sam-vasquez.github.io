@@ -15,4 +15,28 @@ it is taken that $T = \left( \frac{\partial U}{\partial S} \right)_{V,n}$ and $p
 $$
 \left( \frac{\partial T}{\partial V} \right)_{S,n} = - \left( \frac{\partial p}{\partial S} \right)_{V,n}.
 $$
-
+Similarly, for a magnetic system (with $+HdM$ convention),
+$$
+\left( \frac{\partial T}{\partial M} \right)_S = \left( \frac{\partial H}{\partial S} \right)_M.
+$$
+[[Enthalpy]] gives:
+$$
+\left( \frac{\partial T}{\partial p} \right)_S = \left( \frac{\partial V}{\partial S} \right)_p.
+$$
+$$
+- \left( \frac{\partial T}{\partial H} \right) = \left( \frac{\partial M}{\partial S} \right)_H.
+$$
+[[Free Energy]] gives:
+$$
+\left( \frac{\partial S}{\partial V} \right)_T = \left( \frac{\partial p}{\partial T} \right)_V.
+$$
+$$
+\left( \frac{\partial S}{\partial M} \right)_T = -\left( \frac{\partial H}{\partial T} \right)_M.
+$$
+[[Gibbs Free Energy]] gives:
+$$
+- \left( \frac{\partial S}{\partial p} \right)_T = \left( \frac{\partial V}{\partial T} \right)_p.
+$$
+$$
+\left( \frac{\partial S}{\partial M} \right)_T = \left( \frac{\partial M}{\partial T} \right)_H.
+$$

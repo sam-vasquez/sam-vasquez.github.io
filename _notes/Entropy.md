@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Entropy"
 permalink: /note/Entropy/

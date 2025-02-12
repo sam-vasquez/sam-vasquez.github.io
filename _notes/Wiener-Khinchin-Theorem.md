@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Wiener-Khinchin Theorem"
 permalink: /note/Wiener-Khinchin-Theorem/

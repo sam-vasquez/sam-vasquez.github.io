@@ -1,4 +1,6 @@
 ---
+tags:
+  - Quantum
 collection: notes
 title: "Adiabatic Theorem"
 permalink: /note/Adiabatic-Theorem/

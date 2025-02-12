@@ -1,4 +1,6 @@
 ---
+tags:
+  - Reference
 collection: notes
 title: "Gamma function"
 permalink: /note/Gamma-function/

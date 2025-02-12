@@ -1,7 +1,6 @@
 ---
 tags:
-  - "#Conformal-Bootstrap"
-  - "#2d-CFT"
+  - Group-Theory
 collection: notes
 title: "Conformal Group"
 permalink: /note/Conformal-Group/

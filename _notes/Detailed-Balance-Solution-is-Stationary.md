@@ -1,4 +1,6 @@
 ---
+tags:
+  - Probability-Theory
 collection: notes
 title: "Detailed Balance Solution is Stationary"
 permalink: /note/Detailed-Balance-Solution-is-Stationary/

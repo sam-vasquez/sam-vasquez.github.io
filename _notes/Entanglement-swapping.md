@@ -1,4 +1,6 @@
 ---
+tags:
+  - Quantum-Information
 collection: notes
 title: "Entanglement swapping"
 permalink: /note/Entanglement-swapping/

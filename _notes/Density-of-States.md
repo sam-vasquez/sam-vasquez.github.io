@@ -1,22 +1,24 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Density of States"
 permalink: /note/Density-of-States/
 ---
 The **density of states** $\Omega(E)$ is a measure of the number of available microstates with energy $E$ in a thermodynamic system. 
 
-In continuous classical systems, the density of states can be given as   
+In continuous classical systems, the density of states is defined as 
 $$
 \Omega(E) = \prod_i \int \frac{dq_i dp_i}{2\pi} \delta(\mathcal{H}(q,p) - E).
 $$
 
-As a corollary of the [[Second Law of Thermodynamics]], properties of the macroscopic system can be given by averages of certain quantities $A$ in this measure. For example, for a continous classical system, that is
+As a postulate of statistical mechanics, properties of macroscopic systems can be given by [[Ensemble Average]]s of certain quantities $A$ in this measure, defining the [[Microcanonical Ensemble]]. For example, for a continous classical system, 
 $$
-\langle A \rangle_E = \frac{1}{\Omega(E)} \prod_i \int \frac{dq_i dp_i}{2\pi} A(q,p) \delta(\mathcal{H}(q,p) - E).
+\langle A \rangle = \frac{1}{\Omega(E)} \prod_i \int \frac{dq_i dp_i}{2\pi} A(q,p) \delta(\mathcal{H}(q,p) - E).
 $$
-The density of states is a super-extensive quantity, that is, it grows as $e^{ cN }$ as $N \rightarrow \infty$. To get a quantity representing number of microstates that is properly extensive in $N$,  the [[Entropy]] of the system is defined as $S(E) = \ln \Omega(E)$.
+The density of states is a super-extensive quantity, that is, it grows as $e^{ cN }$ as $N \rightarrow \infty$. To get a quantity representing number of microstates that is properly extensive in $N$,  the [[Entropy]] of the system is defined as $S(E) = \ln \Omega(E)$. 
 
-According to the [[Third Law of Thermodynamics]], there is only one or a finite number of states at the ground state energy of the system.
+Consistent with the [[Third Law of Thermodynamics]], there is only one or a finite number of states at the ground state energy of the system.
 
 As an example, the system of $N$ coupled classical harmonic oscillators can have its density of states written as 
 $$

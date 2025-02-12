@@ -1,4 +1,6 @@
 ---
+tags:
+  - Reference
 collection: notes
 title: "Convolution Theorem"
 permalink: /note/Convolution-Theorem/

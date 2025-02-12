@@ -1,4 +1,6 @@
 ---
+tags:
+  - Probability-Theory
 collection: notes
 title: "Detailed Balance"
 permalink: /note/Detailed-Balance/

@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Fermi Energy"
 permalink: /note/Fermi-Energy/

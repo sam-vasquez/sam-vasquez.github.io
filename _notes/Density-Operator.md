@@ -1,4 +1,6 @@
 ---
+tags:
+  - Quantum
 collection: notes
 title: "Density Operator"
 permalink: /note/Density-Operator/

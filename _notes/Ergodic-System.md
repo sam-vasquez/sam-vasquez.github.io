@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Ergodic System"
 permalink: /note/Ergodic-System/

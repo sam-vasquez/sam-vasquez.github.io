@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Jordan-Wigner Transformation"
 permalink: /note/Jordan-Wigner-Transformation/

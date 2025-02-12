@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Grand Potential"
 permalink: /note/Grand-Potential/

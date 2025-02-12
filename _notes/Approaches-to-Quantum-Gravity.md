@@ -1,4 +1,6 @@
 ---
+tags:
+  - QFT
 collection: notes
 title: "Approaches to Quantum Gravity"
 permalink: /note/Approaches-to-Quantum-Gravity/

@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Entropy of Classical Harmonic Oscillators"
 permalink: /note/Entropy-of-Classical-Harmonic-Oscillators/

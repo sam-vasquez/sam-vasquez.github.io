@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Energy Stability Conditions"
 permalink: /note/Energy-Stability-Conditions/
@@ -24,3 +26,4 @@ This implies [[Compressibility]] is positive, therefore things get smaller when 
 
 Note that each stability condition involves derivatives of conjugate variables. There are others, as well. Unlike [[Maxwell Relations]], which relate derivatives by mixing conjugate variables.
 
+Source: Chandler 2.2

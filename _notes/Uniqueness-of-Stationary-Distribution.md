@@ -1,11 +1,11 @@
 ---
+tags:
+  - Probability-Theory
 collection: notes
 title: "Uniqueness of Stationary Distribution"
 permalink: /note/Uniqueness-of-Stationary-Distribution/
 ---
-
-> [!thm] Uniqueness of Stationary Distribution
-> If $P$ is the transition matrix of an irreducible Markov chain, the stationary distribution is unique.
+If $P$ is the transition matrix of an irreducible Markov chain, the stationary distribution is unique.
 
 **Proof**:
 Consider two stationary distributions $\pi_1$ and $\pi_2$.

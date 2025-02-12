@@ -1,4 +1,6 @@
 ---
+tags:
+  - GR
 collection: notes
 title: "Electromagnetic Tensor"
 permalink: /note/Electromagnetic-Tensor/

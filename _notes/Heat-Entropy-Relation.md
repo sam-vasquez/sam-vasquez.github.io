@@ -1,15 +1,15 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Heat-Entropy Relation"
 permalink: /note/Heat-Entropy-Relation/
 ---
-
-> [!thm] Heat-Entropy Relation
-> During any reversible process, the inexact differential of the heat of a thermodynamic system is given as a differential of entropy as
-> $$
-> \delta Q|_{rev} = T dS,
-> $$
-> where $T$ is a strictly positive value corresponding to the inverse of the derivative of entropy with respect to energy (holding all other variables constant), $\left(\frac{\partial S}{\partial U}\right)_{\mathbf{X}} \equiv \frac{1}{T}$.
+During any reversible process, the inexact differential of the heat of a thermodynamic system is given as a differential of entropy as
+$$
+\delta Q|_{rev} = T dS,
+$$
+where $T$ is a strictly positive value corresponding to the inverse of the derivative of entropy with respect to energy (holding all other variables constant), $\left(\frac{\partial S}{\partial U}\right)_{\mathbf{X}} \equiv \frac{1}{T}$.
 
 **Proof:**
 Let $S$ be the [[Entropy]] function proposed in the classical thermodynamic statement of the [[Second Law of Thermodynamics]].

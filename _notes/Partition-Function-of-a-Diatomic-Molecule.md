@@ -7,13 +7,8 @@ The statistical mechanics of chemical reactions requires diatomic molecules at m
 
 Consider two nuclei separated by distance $\vec{R}$. 
 
-Make the **Born-Oppenheimer approximation**, that is, assume that we can factor the wavefunction into separate electron and nuclear components, where the electron wavefunction is translational and the nuclear wavefunction has translational, rotational (spin), and vibrational degrees of freedom:
-$$
-\Psi(\vec{r},\vec{R}) = \psi_e(\vec{r}) \chi(\vec{R})
-$$
-$$
-\psi_{\textrm{trans}}(\vec{r}) = \frac{1}{\sqrt{ V }}e^{i k \cdot r}. 
-$$
+Make the [[Born-Oppenheimer Approximation]]. 
+
 Make the **rigid rotor-harmonic oscillator approximation**, that is, assume that the vibrational and rotational wavefunctions can be separated, with the vibrational wavefunction being that of a simple harmonic oscillator: 
 $$
 \chi(\vec{R}) = \psi_{\textrm{trans}} \psi_{\textrm{rot}} \psi_{\textrm{vib}} = \psi_{\textrm{trans}} \psi_{\textrm{rot}} \psi_{\textrm{SHO}}.

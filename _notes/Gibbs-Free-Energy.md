@@ -1,9 +1,11 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Gibbs Free Energy"
 permalink: /note/Gibbs-Free-Energy/
 ---
-Gibbs free energy is a thermodynamic potential that is a [[Legendre Transformations|Legendre transformation]] of internal energy $U$ to replace state variables $(S,V,n)$ with conjugate variables $(T,p,n)$.
+Gibbs free energy is a thermodynamic potential that is a [[Legendre Transformations|Legendre transformation]] of internal energy $U$ to replace state variables $(S,V,n)$ with conjugate variables $(T,p,n)$ via $G = U - TS + pV$.
 
 The motivation comes mostly from chemistry, where we don't expect most processes to involve changes in volume, but rather changes in pressure and temperature. And we don't expect to be able to control volume or entropy, but we can control pressure and temperature readily. (Honestly, the same is true in physics, but it's a stubborn tradition to use [[Free Energy]] instead. But for what it's worth, at least free energy has a very motivating microscopic origin.)
 

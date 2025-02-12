@@ -1,4 +1,6 @@
 ---
+tags:
+  - QFT
 collection: notes
 title: "Formal Lattice Quantum Gravity"
 permalink: /note/Formal-Lattice-Quantum-Gravity/

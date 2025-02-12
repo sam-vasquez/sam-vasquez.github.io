@@ -1,4 +1,6 @@
 ---
+tags:
+  - QFT
 collection: notes
 title: "Gribov Ambiguity Problem"
 permalink: /note/Gribov-Ambiguity-Problem/

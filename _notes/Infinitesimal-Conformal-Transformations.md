@@ -1,7 +1,6 @@
 ---
 tags:
-  - 2d-CFT
-  - Conformal-Bootstrap
+  - CFT
 collection: notes
 title: "Infinitesimal Conformal Transformations"
 permalink: /note/Infinitesimal-Conformal-Transformations/

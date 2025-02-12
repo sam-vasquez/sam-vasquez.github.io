@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Bose-Einstein Condensate"
 permalink: /note/Bose-Einstein-Condensate/

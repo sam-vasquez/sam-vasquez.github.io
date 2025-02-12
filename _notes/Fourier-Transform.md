@@ -1,4 +1,6 @@
 ---
+tags:
+  - Reference
 collection: notes
 title: "Fourier Transform"
 permalink: /note/Fourier-Transform/

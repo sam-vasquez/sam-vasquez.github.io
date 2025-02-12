@@ -1,4 +1,6 @@
 ---
+tags:
+  - Quantum-Information
 collection: notes
 title: "Deutsch Algorithm"
 permalink: /note/Deutsch-Algorithm/
@@ -22,3 +24,7 @@ $$
 $$
 The first equality comes from recognizing that $f(x)$ is either 0 or 1.
 
+Generalization: [[Deutsch-Josza Algorithm]] 
+
+Reference:
+http://insti.physics.sunysb.edu/~twei/Courses/Fall2024/PHY568/Unit01TheHistoryOfQ.pdf

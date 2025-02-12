@@ -3,10 +3,18 @@ collection: notes
 title: "Legendre Transformations"
 permalink: /note/Legendre-Transformations/
 ---
-For canonical momenta $p_i = \frac{\partial \mathcal{L}}{\partial \dot{q_i}}$, 
+For canonical momenta $p_i = \frac{\partial \mathcal{L}}{\partial \dot{q_i}}$, where $\mathcal{L} = \mathcal{L}(q_i,\dot{q}_i, t)$, the Legendre transform is
 $$
-\mathcal{H}(p_i,q_i,t) = \sum_i p_i \dot{q}^i - \mathcal{L}.
+\mathcal{H}(p_i,q_i,t) = \sum_i p_i \dot{q}^i - \mathcal{L}(p_i, q_i, t).
 $$
+In terms of differential forms,
+$$
+\mathcal{H} = \mathcal{L} - p\dot{q},
+$$
+$$
+d\mathcal{H} = d\mathcal{L} - d(p\dot{q}) = 
+$$
+
 Legendre transform of convex function is also convex.
 
 Efficient calculation process:

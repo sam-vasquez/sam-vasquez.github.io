@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Grand Canonical Ensemble"
 permalink: /note/Grand-Canonical-Ensemble/

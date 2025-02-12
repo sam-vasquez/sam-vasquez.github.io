@@ -8,8 +8,8 @@ Temperature is the defining state variable of thermal equilibrium between two sy
 As a quantity, temperature is [[Heat-Entropy Relation|defined]] from the [[Notes/First Law of Thermodynamics|first]] and [[Second Law of Thermodynamics|second]] laws of thermodynamics as $\delta Q = T dS$. 
 
 The [[Thermodynamic Identity]] defined from the first law, and corresponding identities derived from [[Legendre Transformations]], provide the following equivalent expressions for $T$:
-- $T = \left( \frac{\partial U(S,V,n)}{\partial S} \right)_{V,n}$
-- $T = \left( \frac{\partial H(S,p,n)}{\partial S} \right)_{p,n}$, where $H$ is [[Enthalpy]].
+- $T = \left( \frac{\partial U}{\partial S} \right)_{V,n}$
+- $T = \left( \frac{\partial H}{\partial S} \right)_{p,n}$, where $H$ is [[Enthalpy]].
 
 The [[Maxwell Relations]] provide the following relations between derivatives of $T$ and derivatives of other variables:
 - 

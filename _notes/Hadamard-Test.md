@@ -1,4 +1,6 @@
 ---
+tags:
+  - Quantum-Information
 collection: notes
 title: "Hadamard Test"
 permalink: /note/Hadamard-Test/

@@ -1,10 +1,11 @@
 ---
+tags:
+  - Math
 collection: notes
 title: "GCD of Set is Integer Combination of Set Elements"
 permalink: /note/GCD-of-Set-is-Integer-Combination-of-Set-Elements/
 ---
-> [!thm] GCD of Set is Integer Combination of Set Elements
-> For integers $a,b$, the smallest positive linear combination of $a$ and $b$ equals $\gcd (a,b)$.
+ For integers $a,b$, the smallest positive linear combination of $a$ and $b$ equals $\gcd (a,b)$.
 
 **Proof**
 Suppose $d$ is the smallest positive linear combination of $a$ and $b$.

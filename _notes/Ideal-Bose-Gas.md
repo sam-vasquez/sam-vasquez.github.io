@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Ideal Bose Gas"
 permalink: /note/Ideal-Bose-Gas/

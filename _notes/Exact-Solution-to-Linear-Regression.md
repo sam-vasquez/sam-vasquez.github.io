@@ -1,18 +1,15 @@
 ---
 tags:
   - ML
-  - theorem
 collection: notes
 title: "Exact Solution to Linear Regression"
 permalink: /note/Exact-Solution-to-Linear-Regression/
 ---
-
-> [!thm] Exact Solution to Linear Regression
-> The most optimal solution $\mathbf{w}$ to the least-squares fit in linear regression,
-> $$
-> \mathcal{L} \equiv (x^a{}_j w^j - y^a) (x_a{}_k w^k - y_a) = || \mathbf{Xw - y} ||_2^2,
-> $$
-> when the solution exists, is $\mathbf{w} = \mathbf{(X^T X)^{-1} X^T y}$.
+The most optimal solution $\mathbf{w}$ to the least-squares fit in linear regression,
+$$
+\mathcal{L} \equiv (x^a{}_j w^j - y^a) (x_a{}_k w^k - y_a) = || \mathbf{Xw - y} ||_2^2,
+$$
+when the solution exists, is $\mathbf{w} = \mathbf{(X^T X)^{-1} X^T y}$.
 
 #### Proof:
 

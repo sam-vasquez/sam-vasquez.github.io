@@ -1,16 +1,14 @@
 ---
 tags:
   - Probability-Theory
-  - theorem
 collection: notes
 title: "Chebychev's Inequality"
 permalink: /note/Chebychevs-Inequality/
 ---
-> [!thm] Chebychev's Inequality
-> Given a non-negative random variable $X \geq 0$ with defined and finite expected value $\mathbb{E}[X]$ and variance $\mathbb{V}[X] = \sigma_X^2$, for any positive constant $c > 0$, the following inequality holds: 
-> $$
-> \mathbb{P}(|X - \mathbb{E}[X]| \geq c\sigma_X) \leq \frac{1}{c^2}.
-> $$
+Given a non-negative random variable $X \geq 0$ with defined and finite expected value $\mathbb{E}[X]$ and variance $\mathbb{V}[X] = \sigma_X^2$, for any positive constant $c > 0$, the following inequality holds: 
+$$
+\mathbb{P}(|X - \mathbb{E}[X]| \geq c\sigma_X) \leq \frac{1}{c^2}.
+$$
 
 **Proof:**
 Start with [[Markov's Inequality]]:

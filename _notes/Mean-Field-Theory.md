@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Mean Field Theory"
 permalink: /note/Mean-Field-Theory/
@@ -21,3 +23,5 @@ $$
 $$
 s_i s_j \approx m^2 + m(s_i - m + s_j - m) = m(s_i + s_j) - m^2.
 $$
+
+That said, the fluctuations are really important, and neglecting them will give poor results. For example, compare the critical behavior of the [[Curie-Weiss Mean Field Theory]] to the [[Ising Model]].

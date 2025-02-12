@@ -1,12 +1,10 @@
 ---
 tags:
   - Probability-Theory
-  - theorem
 collection: notes
 title: "Chernoff Bounds"
 permalink: /note/Chernoff-Bounds/
 ---
-
 Given a non-negative random variable $X \geq 0$ with a Moment Generating Function $M_X(t) = \mathbb{E}[e^{ tX }]$ that is defined and finite for all $|t|\leq b$, for any positive constant $k > 0$, the following inequality holds:
 $$
 \mathbb{P}(X \geq k) \leq \inf_{0\leq t\leq b} [e^{ -tk }M_X(t)].

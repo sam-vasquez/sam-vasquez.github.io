@@ -1,4 +1,6 @@
 ---
+tags:
+  - Quantum
 collection: notes
 title: "Variational Principle (Quantum Mechanics)"
 permalink: /note/Variational-Principle-Quantum-Mechanics/

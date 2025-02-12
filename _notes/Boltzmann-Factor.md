@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Boltzmann Factor"
 permalink: /note/Boltzmann-Factor/

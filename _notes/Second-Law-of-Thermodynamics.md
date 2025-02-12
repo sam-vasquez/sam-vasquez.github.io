@@ -18,8 +18,5 @@ However, it must be stressed that heat does not necessarily need to be expressed
 
 This statement of the second law is also equivalent to the [[Entropy Maximization Principle]], and by corollary, the [[Energy Minimization Principles]]. This statement would be that with energy and all other extensive variables equal, the equilibrium state of a thermodynamic system is the state with all internal configurations such that entropy is maximized. 
 
-From the statistical point of view, an equivalent statement of the second law is that all state variables of a given equilibrium state are given by an average over all microscopic states on the energy surface.
 
-On the dynamical energy surface, single points refer to different arrangements of particle positions and momenta, but almost every point is macroscopically indistinguishable, and almost every point has the macroscopic properties of thermal equilibrium. This motivates the interpretation 
-
-This law is the foundation for defining a [[Density of States]] that characterizes the number of microstates at a given energy and allow to compute averages over these microstates to get macroscopic properties. It also connects [[Entropy]] to its interpretation as a measure of statistical information entropy.
+From the statistical mechanics point of view, the second law motivates the identification of the thermodynamics entropy with the [[Entropy (Information Theory)]] of the [[Microcanonical Ensemble]]. And by being able to define thermodynamic entropy, it in turn motivates the [[Canonical Ensemble]]. See stat mech hw problem 19.

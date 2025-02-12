@@ -1,18 +1,14 @@
 ---
 tags:
-  - theorem
-  - Conformal-Bootstrap
-  - 2d-CFT
+  - CFT
 collection: notes
 title: "Conformal Killing Equation"
 permalink: /note/Conformal-Killing-Equation/
 ---
-
-> [!thm] The conformal Killing equation
-> For any infinitesimal conformal coordinate transformation of the form $x^\mu \rightarrow x^\mu + \epsilon^\mu$, $\epsilon^\mu$ satisfies the following equation:
-> $$
->\partial_\mu \epsilon_\nu + \partial_\nu \epsilon_\mu = \frac{2}{d} (\partial \cdot \epsilon) \eta_{\mu\nu}.
->$$
+For any infinitesimal conformal coordinate transformation of the form $x^\mu \rightarrow x^\mu + \epsilon^\mu$, $\epsilon^\mu$ satisfies the following equation:
+$$
+\partial_\mu \epsilon_\nu + \partial_\nu \epsilon_\mu = \frac{2}{d} (\partial \cdot \epsilon) \eta_{\mu\nu}.
+$$
 
 ^000401
 

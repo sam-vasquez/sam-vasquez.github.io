@@ -1,13 +1,15 @@
 ---
+tags:
+  - Quantum
 collection: notes
 title: "Bloch's Theorem"
 permalink: /note/Blochs-Theorem/
 ---
-> [!thm] Bloch's Theorem
-> Consider a Hamiltonian that has Bravais lattice symmetry: That is, for any arbitrary lattice vector $\vec{R}_{\vec{n}} = n^\alpha e_\alpha$, $H = \frac{p^2}{2m} + U(\vec{r})$ with $U(\vec{r} + \vec{R}_{\vec{n}}) = U(\vec{r})$. Bloch's theorem states that eigenfunctions of this Hamiltonian can be written as "Bloch waves",
-> $$
-> \psi_{\vec{k}}(\vec{r}) = e^{ i \vec{k} \cdot \vec{r} } u_\vec{k} (\vec{r}).
-> $$
+[!thm] Bloch's Theorem
+Consider a Hamiltonian that has Bravais lattice symmetry: That is, for any arbitrary lattice vector $\vec{R}_{\vec{n}} = n^\alpha e_\alpha$, $H = \frac{p^2}{2m} + U(\vec{r})$ with $U(\vec{r} + \vec{R}_{\vec{n}}) = U(\vec{r})$. Bloch's theorem states that eigenfunctions of this Hamiltonian can be written as "Bloch waves",
+$$
+\psi_{\vec{k}}(\vec{r}) = e^{ i \vec{k} \cdot \vec{r} } u_\vec{k} (\vec{r}).
+$$
 
 **Proof:**
 Define a translation operator $T_{\vec{R}_\vec{n}}$ that maps $f(\vec{r})$ to $f(\vec{r} + \vec{R}_\vec{n}) = f(\vec{r} + n^\alpha \vec{e}_\alpha)$.

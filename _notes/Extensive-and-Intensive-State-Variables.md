@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Extensive and Intensive State Variables"
 permalink: /note/Extensive-and-Intensive-State-Variables/

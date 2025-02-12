@@ -1,4 +1,6 @@
 ---
+tags:
+  - CM
 collection: notes
 title: "Euler-Lagrange Equation"
 permalink: /note/Euler-Lagrange-Equation/

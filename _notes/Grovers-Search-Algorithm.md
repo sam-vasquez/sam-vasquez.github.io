@@ -1,4 +1,6 @@
 ---
+tags:
+  - Quantum-Information
 collection: notes
 title: "Grover's Search Algorithm"
 permalink: /note/Grovers-Search-Algorithm/
@@ -28,11 +30,11 @@ $$
 \ket{ s } = \ket{ ++\cdots+ } = \frac{1}{N^{1/2}} \sum_{x=0}^{N-1} \ket{ x },
 $$
 the superposition of qubit binary representations of all integers $x$. 
-2. Apply the oracle $O$.
-3. Apply the Hadamard transform $H^{\otimes n}$.
-4. Shift the phase of every state except $\ket{ 0 }$ by $-1$.
-5. Apply the Hadamard transform $H^{\otimes n}$.
-6. Repeat steps 2-5.
+1. Apply the oracle $\mathcal{O}$.
+2. Apply the Hadamard transform $H^{\otimes n}$.
+3. Shift the phase of every state except $\ket{ 0 }$ by $-1$.
+4. Apply the Hadamard transform $H^{\otimes n}$.
+5. Repeat steps 2-5.
 The combined effect of steps 3-5 is to apply the operator
 $$
 \mathcal{U} = 2 \ket{ s } \bra{ s } - I.
@@ -51,6 +53,7 @@ See NC 6.1.3.
 The algorithm can also be [[Adiabatic Implementation of Grover's Search Algorithm||implemented on]] an [[Adiabatic Quantum Computer]].
 
 Reference: Nielson & Chuang Ch. 6
+See also http://insti.physics.sunysb.edu/~twei/Courses/Fall2024/PHY568/Unit04GrindingGatesInQC.pdf
 The basic algorithm is described in Section 6.1. 
 In Section 6.2 we derive the algorithm from another point of view, based on the quantum simulation algorithm of Section 4.7. 
 Three important applications of this algorithm are also described: 

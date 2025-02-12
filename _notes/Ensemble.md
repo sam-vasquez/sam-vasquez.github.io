@@ -1,4 +1,6 @@
 ---
+tags:
+  - CM
 collection: notes
 title: "Ensemble"
 permalink: /note/Ensemble/

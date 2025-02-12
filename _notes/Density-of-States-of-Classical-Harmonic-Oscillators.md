@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Density of States of Classical Harmonic Oscillators"
 permalink: /note/Density-of-States-of-Classical-Harmonic-Oscillators/

@@ -1,4 +1,6 @@
 ---
+tags:
+  - QFT
 collection: notes
 title: "Chiral Anomaly"
 permalink: /note/Chiral-Anomaly/

@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Variational Principle (Statistical Mechanics)"
 permalink: /note/Variational-Principle-Statistical-Mechanics/

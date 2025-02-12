@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Ideal Fermi Gas"
 permalink: /note/Ideal-Fermi-Gas/

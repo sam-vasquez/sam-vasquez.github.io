@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "First Law of Thermodynamics"
 permalink: /note/First-Law-of-Thermodynamics/

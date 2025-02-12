@@ -1,4 +1,6 @@
 ---
+tags:
+  - Quantum-Information
 collection: notes
 title: "Bell's Theorem"
 permalink: /note/Bells-Theorem/
