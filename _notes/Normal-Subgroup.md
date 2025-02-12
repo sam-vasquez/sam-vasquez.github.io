@@ -1,4 +1,6 @@
 ---
+tags:
+  - Group-Theory
 collection: notes
 title: "Normal Subgroup"
 permalink: /note/Normal-Subgroup/

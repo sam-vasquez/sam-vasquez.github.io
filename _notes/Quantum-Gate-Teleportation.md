@@ -1,4 +1,6 @@
 ---
+tags:
+  - Quantum-Information
 collection: notes
 title: "Quantum Gate Teleportation"
 permalink: /note/Quantum-Gate-Teleportation/

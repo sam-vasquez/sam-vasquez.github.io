@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Laplace's Method"
 permalink: /note/Laplaces-Method/

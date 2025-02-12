@@ -1,4 +1,6 @@
 ---
+tags:
+  - Math
 collection: notes
 title: "Parseval's Theorem"
 permalink: /note/Parsevals-Theorem/

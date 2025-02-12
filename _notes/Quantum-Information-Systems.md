@@ -1,4 +1,6 @@
 ---
+tags:
+  - Quantum-Information
 collection: notes
 title: "Quantum Information Systems"
 permalink: /note/Quantum-Information-Systems/

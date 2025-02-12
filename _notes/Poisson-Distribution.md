@@ -1,4 +1,6 @@
 ---
+tags:
+  - Probability-Theory
 collection: notes
 title: "Poisson Distribution"
 permalink: /note/Poisson-Distribution/

@@ -1,4 +1,6 @@
 ---
+tags:
+  - Quantum
 collection: notes
 title: "Nielsen-Ninomiya Theorem"
 permalink: /note/Nielsen-Ninomiya-Theorem/

@@ -1,15 +1,16 @@
 ---
+tags:
+  - Probability-Theory
 collection: notes
 title: "Total Variation Distance"
 permalink: /note/Total-Variation-Distance/
 ---
-Total variation distance is a distance measure for probability distributions. It is helpful for characterizing the distance between two distributions when considering, say, convergence of a sequence of random variables.
+Total variation distance is one of many distance measures for probability distributions. It is helpful for characterizing the distance between two distributions when considering, say, convergence of a sequence of random variables.
 
-> [!def] Total Variation Distance
-> The total variation distance between two probability distributions $\mu$ and $\nu$ on a finite space $\mathcal{X}$ is defined by
-> $$
-> ||\mu - \nu||_{TV} = \frac{1}{2} \sum_{x \in \mathcal{X}} |\mu(x) - \nu(x)|.
-> $$
+The total variation distance between two probability distributions $\mu$ and $\nu$ on a finite space $\mathcal{X}$ is defined by
+$$
+||\mu - \nu||_{TV} = \frac{1}{2} \sum_{x \in \mathcal{X}} |\mu(x) - \nu(x)|.
+$$
 
 (We divide by $1/2$ because the furthest apart any two distributions can be is two.)
 

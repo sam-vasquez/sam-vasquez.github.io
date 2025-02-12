@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "The Classical Limit"
 permalink: /note/The-Classical-Limit/

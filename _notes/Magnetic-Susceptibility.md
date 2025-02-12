@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Magnetic Susceptibility"
 permalink: /note/Magnetic-Susceptibility/

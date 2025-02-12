@@ -1,4 +1,6 @@
 ---
+tags:
+  - Quantum
 collection: notes
 title: "Quantum Hall Effect"
 permalink: /note/Quantum-Hall-Effect/
@@ -12,3 +14,5 @@ That value corresponds to the number of filled Landau levels.
 Reference: [[(2008) Anyons and the quantum Hall effect—A pedagogical review]] 
 
 Todo: What is the [[Anomalous Hall Effect]]?
+
+See page 346 of [[(2010) Quantum Computing and Quantum Information - Nielsen, Chuang]]

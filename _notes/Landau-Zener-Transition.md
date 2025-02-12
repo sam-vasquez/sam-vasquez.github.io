@@ -1,4 +1,6 @@
 ---
+tags:
+  - Quantum
 collection: notes
 title: "Landau-Zener Transition"
 permalink: /note/Landau-Zener-Transition/

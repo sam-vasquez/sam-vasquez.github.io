@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Thermodynamic Identity"
 permalink: /note/Thermodynamic-Identity/

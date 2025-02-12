@@ -1,4 +1,6 @@
 ---
+tags:
+  - Group-Theory
 collection: notes
 title: "Torsor"
 permalink: /note/Torsor/

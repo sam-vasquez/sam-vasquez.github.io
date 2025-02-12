@@ -1,9 +1,11 @@
 ---
+tags:
+  - Reference
 collection: notes
 title: "Pauli Matrices"
 permalink: /note/Pauli-Matrices/
 ---
-The Pauli matrices are a set of 2x2 complex matrices. They form a representation of
+The Pauli matrices are a set of 2x2 complex matrices.
 
 $\sigma_i^2 = 1$
 $Tr(\sigma_i) = 0$

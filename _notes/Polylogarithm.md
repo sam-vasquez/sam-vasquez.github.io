@@ -1,4 +1,6 @@
 ---
+tags:
+  - Reference
 collection: notes
 title: "Polylogarithm"
 permalink: /note/Polylogarithm/

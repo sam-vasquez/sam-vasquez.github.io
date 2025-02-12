@@ -1,16 +1,14 @@
 ---
 tags:
   - Probability-Theory
-  - theorem
 collection: notes
 title: "Markov's Inequality"
 permalink: /note/Markovs-Inequality/
 ---
-> [!thm] Markov's Inequality
-> Given a non-negative random variable $X \geq 0$, for any positive constant $k > 0$, the following inequality holds:
-> $$
-> \mathbb{P}(X \geq k) \leq \frac{\mathbb{E}[X]}{k}.
-> $$
+Given a non-negative random variable $X \geq 0$, for any positive constant $k > 0$, the following inequality holds:
+$$
+\mathbb{P}(X \geq k) \leq \frac{\mathbb{E}[X]}{k}.
+$$
 
 **Proof:**
 Let $X$ be continuous. The discrete case will work exactly the same way.

@@ -1,11 +1,11 @@
 ---
+tags:
+  - Probability-Theory
 collection: notes
 title: "Symmetric Markov Chain has Uniform Stationary Distribution"
 permalink: /note/Symmetric-Markov-Chain-has-Uniform-Stationary-Distribution/
 ---
-
-> [!thm] Symmetric Markov Chain has Uniform Stationary Distribution
-> When the transition matrix $P$ of a Markov chain with state space $\mathcal{X}$ is symmetric, that is when $P_{ij} = P_{ji}$ for all $x_i,x_j \in \mathcal{X}$, the uniform distribution on $\mathcal{X}$ is stationary for $P$.
+When the transition matrix $P$ of a Markov chain with state space $\mathcal{X}$ is symmetric, that is when $P_{ij} = P_{ji}$ for all $x_i,x_j \in \mathcal{X}$, the uniform distribution on $\mathcal{X}$ is stationary for $P$.
 
 **Proof:**
 The uniform distribution on $\mathcal{X}$ with $|\mathcal{X}| = n$ is $u_i = \frac{1}{n}$ for all $x_i \in \mathcal{X}$.

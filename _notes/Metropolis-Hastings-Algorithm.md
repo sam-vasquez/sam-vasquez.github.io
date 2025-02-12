@@ -1,4 +1,6 @@
 ---
+tags:
+  - Probability-Theory
 collection: notes
 title: "Metropolis-Hastings Algorithm"
 permalink: /note/Metropolis-Hastings-Algorithm/

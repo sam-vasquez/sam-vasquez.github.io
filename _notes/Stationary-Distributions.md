@@ -1,4 +1,6 @@
 ---
+tags:
+  - Probability-Theory
 collection: notes
 title: "Stationary Distributions"
 permalink: /note/Stationary-Distributions/

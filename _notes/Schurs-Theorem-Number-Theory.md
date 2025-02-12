@@ -1,10 +1,11 @@
 ---
+tags:
+  - Math
 collection: notes
 title: "Schur's Theorem (Number Theory)"
 permalink: /note/Schurs-Theorem-Number-Theory/
 ---
-> [!thm] Schur's Theorem
-> If $S \subset \mathbb{Z}^+$ has $\gcd(S) = g_S$, then there is some integer $m_S$ such that for all $m \geq m_S$ the product $mg_S$ can be written as a linear combination of elements of $S$ with non-negative integer coefficients.
+ If $S \subset \mathbb{Z}^+$ has $\gcd(S) = g_S$, then there is some integer $m_S$ such that for all $m \geq m_S$ the product $mg_S$ can be written as a linear combination of elements of $S$ with non-negative integer coefficients.
 
 Note: The largest integer that cannot be written as a non-negative integer combination of elements of $S$ is usually called the Frobenius number.
 

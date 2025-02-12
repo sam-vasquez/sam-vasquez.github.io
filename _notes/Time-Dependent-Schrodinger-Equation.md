@@ -1,4 +1,6 @@
 ---
+tags:
+  - Reference
 collection: notes
 title: "Time-Dependent Schrodinger Equation"
 permalink: /note/Time-Dependent-Schrodinger-Equation/

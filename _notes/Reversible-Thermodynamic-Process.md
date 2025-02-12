@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Reversible Thermodynamic Process"
 permalink: /note/Reversible-Thermodynamic-Process/

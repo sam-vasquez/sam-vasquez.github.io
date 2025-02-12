@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Non-Equilibrium Statistical Mechanics"
 permalink: /note/Non-Equilibrium-Statistical-Mechanics/

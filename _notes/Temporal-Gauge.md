@@ -1,4 +1,6 @@
 ---
+tags:
+  - Reference
 collection: notes
 title: "Temporal Gauge"
 permalink: /note/Temporal-Gauge/

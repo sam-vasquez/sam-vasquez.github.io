@@ -1,15 +1,16 @@
 ---
+tags:
+  - Probability-Theory
 collection: notes
 title: "Markov Chains"
 permalink: /note/Markov-Chains/
 ---
 A Markov chain is a stochastic process that describes a sequence of events, in which the probability of each event depends only on the state of the previous event.  
 
-> [!def] Markov Chains
-> A sequence of random variables $X_0, X_1,\cdots$ is a Markov chain with state space $\mathcal{X}$ and transition matrix $P$ if for all $n \in \mathbb{N}$ and $x_i, x_j \in \mathcal{X}$ we have 
-> $$
-> \mathbf{P}(X_{n+1} = x_j | \{ X_k = x_k | 0 \leq k \leq n \}) = \mathbf{P}(X_{n+1} = x_j | X_n = x_i) \equiv P_{ij}.
-> $$
+A sequence of random variables $X_0, X_1,\cdots$ is a Markov chain with state space $\mathcal{X}$ and transition matrix $P$ if for all $n \in \mathbb{N}$ and $x_i, x_j \in \mathcal{X}$ we have 
+$$
+\mathbf{P}(X_{n+1} = x_j | \{ X_k = x_k | 0 \leq k \leq n \}) = \mathbf{P}(X_{n+1} = x_j | X_n = x_i) \equiv P_{ij}.
+$$
 
 A basic example of a Markov chain is a random walk. At each time step $n$, the random walk chooses a random direction and updates $X_n$ according to this choice, independent of all previous choices and states. 
 
@@ -19,14 +20,12 @@ An important application of Markov chains is to study how arbitrary distribution
 
 Most interesting Markov chains possess the properties of irreducibility and aperiodicity, which also turn out to be necessary conditions for important results regarding convergence.
 
-> [!def] Irreducible Markov Chains
-> A Markov chain is called *irreducible* if for any $x_i, x_j \in \mathcal{X}$, there exists $n \in \mathbb{N}$ such that $P^n_{ij} > 0$.
+A Markov chain is called *irreducible* if for any $x_i, x_j \in \mathcal{X}$, there exists $n \in \mathbb{N}$ such that $P^n_{ij} > 0$.
 
 ^2ce78f
 
-> [!def] Aperiodicity
-> Let $\mathcal{T}(x_i) := \{ n \geq 1 : P^n_{ii} > 0 \}$ be the set of times where it is possible for a given Markov chain to return to its starting state $x_i$. The *period* of state $x_i$ is the greatest common divisor of $\mathcal{T}(x_i)$.
->The Markov chain is said to be *aperiodic* if for all $x_i \in \mathcal{X}$, $\gcd \mathcal{T} = 1$.
+Let $\mathcal{T}(x_i) := \{ n \geq 1 : P^n_{ii} > 0 \}$ be the set of times where it is possible for a given Markov chain to return to its starting state $x_i$. The *period* of state $x_i$ is the greatest common divisor of $\mathcal{T}(x_i)$.
+The Markov chain is said to be *aperiodic* if for all $x_i \in \mathcal{X}$, $\gcd \mathcal{T} = 1$.
  
 Irreducibility is essentially a statement that every state in $\mathcal{X}$ is reachable by the chain. It is generally easy to assume that the chains under discussion are irreducible - sometimes it's interesting to confirm this for particular chains. For example, the construction of a Markov chain on the space of [[Self-Avoiding Walks]].
 

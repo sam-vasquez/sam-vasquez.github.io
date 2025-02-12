@@ -1,4 +1,6 @@
 ---
+tags:
+  - Quantum
 collection: notes
 title: "Moore Read States"
 permalink: /note/Moore-Read-States/

@@ -1,4 +1,6 @@
 ---
+tags:
+  - Probability-Theory
 collection: notes
 title: "Metropolis-Hastings Acceptance Probability is Optimal"
 permalink: /note/Metropolis-Hastings-Acceptance-Probability-is-Optimal/

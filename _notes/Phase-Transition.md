@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Phase Transition"
 permalink: /note/Phase-Transition/

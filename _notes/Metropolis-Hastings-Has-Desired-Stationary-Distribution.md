@@ -1,4 +1,6 @@
 ---
+tags:
+  - Probability-Theory
 collection: notes
 title: "Metropolis-Hastings Has Desired Stationary Distribution"
 permalink: /note/Metropolis-Hastings-Has-Desired-Stationary-Distribution/

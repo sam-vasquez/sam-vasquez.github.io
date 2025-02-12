@@ -1,4 +1,6 @@
 ---
+tags:
+  - Reference
 collection: notes
 title: "Thermodynamic Beta"
 permalink: /note/Thermodynamic-Beta/

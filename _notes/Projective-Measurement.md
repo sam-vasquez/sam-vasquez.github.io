@@ -1,4 +1,6 @@
 ---
+tags:
+  - Quantum-Information
 collection: notes
 title: "Projective Measurement"
 permalink: /note/Projective-Measurement/

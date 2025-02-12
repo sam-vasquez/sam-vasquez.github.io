@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Second Law of Thermodynamics"
 permalink: /note/Second-Law-of-Thermodynamics/

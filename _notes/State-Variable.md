@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "State Variable"
 permalink: /note/State-Variable/

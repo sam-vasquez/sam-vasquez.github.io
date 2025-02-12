@@ -1,4 +1,6 @@
 ---
+tags:
+  - Group-Theory
 collection: notes
 title: "Kernel"
 permalink: /note/Kernel/

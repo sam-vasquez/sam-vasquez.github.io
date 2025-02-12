@@ -1,4 +1,6 @@
 ---
+tags:
+  - Quantum
 collection: notes
 title: "Proof of Adiabatic Theorem (Single Parameter)"
 permalink: /note/Proof-of-Adiabatic-Theorem-Single-Parameter/
@@ -26,4 +28,4 @@ Solve this equation with the initial condition $c_n(t=0) = 1$, $c_{m\neq n} = 0$
 $$
 i\hbar \dot{c}_k(0) + i\hbar \bra{ \Psi_k(0) } \frac{d}{dt} \ket{ \psi_n(0) } = \delta_{kn} E_k(0),
 $$
-Todo: Tarnopolsky notes continue by assuming that $c_{k\neq n}(t) \ll 1$. Can this be defended? Presumably because the energy gaps are large for all $t$.
+Todo: Notes continue by assuming that $c_{k\neq n}(t) \ll 1$. Can this be defended? Presumably because the energy gaps are large for all $t$.

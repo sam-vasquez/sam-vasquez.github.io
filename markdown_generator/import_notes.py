@@ -72,6 +72,6 @@ if __name__ == '__main__':
         for f in os.listdir(output_dir):
             os.remove(os.path.join(output_dir, f))
 
-    excluded_tags = ["private","todo","Course","Seminar","paper","Book"]
+    excluded_tags = ["private","exclude","todo","Course","Seminar","paper","Book"]
     process_directory(input_dir, output_dir, excluded_tags)
     print("Import Successful.")

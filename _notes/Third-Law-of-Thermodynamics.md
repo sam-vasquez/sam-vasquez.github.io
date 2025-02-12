@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Third Law of Thermodynamics"
 permalink: /note/Third-Law-of-Thermodynamics/

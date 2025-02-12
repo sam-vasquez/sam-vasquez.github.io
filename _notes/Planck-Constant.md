@@ -1,4 +1,6 @@
 ---
+tags:
+  - Reference
 collection: notes
 title: "Planck Constant"
 permalink: /note/Planck-Constant/

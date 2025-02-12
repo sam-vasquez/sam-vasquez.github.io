@@ -1,4 +1,6 @@
 ---
+tags:
+  - Stat-Mech
 collection: notes
 title: "Partition Function of a Diatomic Molecule"
 permalink: /note/Partition-Function-of-a-Diatomic-Molecule/

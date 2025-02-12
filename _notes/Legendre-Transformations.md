@@ -1,4 +1,6 @@
 ---
+tags:
+  - CM
 collection: notes
 title: "Legendre Transformations"
 permalink: /note/Legendre-Transformations/

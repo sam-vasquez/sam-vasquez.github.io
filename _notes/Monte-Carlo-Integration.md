@@ -19,11 +19,10 @@ $$
 $$
 This gives us our simplest form of Monte Carlo integration.
 
-> [!def] Naive Monte Carlo
-> Given N points $x_1,\cdots,x_N \in \Omega$ sampled from a uniform distribution, the Monte Carlo Estimator of the integral of a function $f$ defined on $\Omega$ is given by
-> $$
-> \int_\Omega f(x) \approx \frac{\textrm{Vol}(\Omega)}{N}\sum_{n=1}^N f(x_n)
-> .$$
+Given N points $x_1,\cdots,x_N \in \Omega$ sampled from a uniform distribution, the naive Monte Carlo Estimator of the integral of a function $f$ defined on $\Omega$ is given by
+$$
+\int_\Omega f(x) \approx \frac{\textrm{Vol}(\Omega)}{N}\sum_{n=1}^N f(x_n)
+.$$
 
 As one can imagine, it can be very inefficient to sample points uniformly over the integration region. The Law of Large Numbers guarantees that it will eventually converge, but this could take a very long time when the sampling method treats all points equally. Ideally we would rather sample points according to a distribution that more closely resembles $f$, such that peaks of $f$ are more likely to be visited sooner than troughs. 
 
@@ -33,14 +32,13 @@ $$
 $$
 This leads to a general form of Monte Carlo integration:
 
-> [!def] Monte Carlo with Importance Sampling
-> Given N points $x_1,\cdots,x_N \in \Omega$ sampled from an arbitrary probability density function $p$, the Monte Carlo Estimator of the integral of a function $f$ defined on $\Omega$ is given by
-> $$
-> \int_\Omega f(x) \approx \frac{1}{N} \sum_{n=1}^N \frac{f(x_n)}{p(x_n)}
-> .$$
+Given N points $x_1,\cdots,x_N \in \Omega$ sampled from an arbitrary probability density function $p$, the Monte Carlo Estimator of the integral of a function $f$ defined on $\Omega$ is given by
+$$
+\int_\Omega f(x) \approx \frac{1}{N} \sum_{n=1}^N \frac{f(x_n)}{p(x_n)}
+.$$
 
-Prove that error scales as $1/\epsilon^2$.
-Prove LLN using Levy's continuity theorem.
+Todo: Prove that error scales as $1/\epsilon^2$.
+Todo: Prove [[Law of Large Numbers]] using Levy's continuity theorem.
 
 Although importance sampling is very useful for the variance and convergence of Monte Carlo integration, it suffers an important problem: computers are not good at sampling from non-uniform distributions. In some cases we might be able to transform our variables to ones where the distribution is uniform, but in general we won't be able to. 
 

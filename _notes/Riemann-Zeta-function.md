@@ -1,4 +1,6 @@
 ---
+tags:
+  - Reference
 collection: notes
 title: "Riemann-Zeta function"
 permalink: /note/Riemann-Zeta-function/
