@@ -16,4 +16,4 @@ The energy of formation of a line of length $L$ is $\Delta E = 2JL$. So the free
 $$
 \Delta F = 2 J L - k_B T \ln \Omega_L = 2 J L - k_B T L \ln(3) - 1/2 k_B T \ln N - k_B T \ln(2).
 $$
-This time it's the $L\sim N^{1/2}$ interaction term that dominates rather than the $\ln N$ entropy term. The critical temperature is at $T_C = \frac{1}{k_B}\frac{2J}{\ln(3)} \approx 1.82$ $J/k_B$. Exact result is 2.269 $J/k_B$.
+This time it's the $L\sim N^{1/2}$ interaction term that dominates rather than the $\ln N$ entropy term. So at low temperatures, domain walls are energetically dispreferred, long range order is preferred and magnetization occurs. The critical temperature is at $T_C = \frac{1}{k_B}\frac{2J}{\ln(3)} \approx 1.82$ $J/k_B$. Exact result is 2.269 $J/k_B$. Using $\Omega_L = 2.5$ gets much closer, 2.18. Exact result suggests 2.414.

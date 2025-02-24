@@ -62,6 +62,16 @@ $$
 \phi_j = \pi \sum_{l<j} f_l^\dagger f_l.
 $$
 
+Example:
+JW transformation of a single-particle operator:
+$$
+\mathcal{O}_1 = \sum_{k,l} O_{kl} f_k^\dagger f_l
+$$
+$O_{kl} = \bra{ u_k } O \ket{ u_l }$
+$$
+f_l = (\bar{X}_l - i\bar{Y}_l)e^{ i \phi_l }, f_k^\dagger = (\bar{X}_k + i\bar{Y}_k)e^{ -i \phi_k }.
+$$
+
 
 
 Reference:

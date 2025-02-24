@@ -21,4 +21,4 @@ However, it must be stressed that heat does not necessarily need to be expressed
 This statement of the second law is also equivalent to the [[Entropy Maximization Principle]], and by corollary, the [[Energy Minimization Principles]]. This statement would be that with energy and all other extensive variables equal, the equilibrium state of a thermodynamic system is the state with all internal configurations such that entropy is maximized. 
 
 
-From the statistical mechanics point of view, the second law motivates the identification of the thermodynamics entropy with the [[Entropy (Information Theory)]] of the [[Microcanonical Ensemble]]. And by being able to define thermodynamic entropy, it in turn motivates the [[Canonical Ensemble]]. See stat mech hw problem 19.
+From the statistical mechanics point of view, the second law motivates the identification of the thermodynamics entropy with the [[Entropy (Information Theory) 1]] of the [[Microcanonical Ensemble]]. And by being able to define thermodynamic entropy, it in turn motivates the [[Canonical Ensemble]]. See stat mech hw problem 19.

@@ -9,11 +9,11 @@ Mean field theory is a general approach to the statistical mechanics of interact
 
 In other words, the goal is to replace a Hamiltonian of the form
 $$
-\mathcal{H} = -\sum_{ij} A_{ij} s_j - \sum_{ij} s_i s_j
+\mathcal{H} = -\sum_{\langle ij \rangle} J_{ij} s_i s_j - \sum_{i} s_i
 $$
 with a Hamiltonian of the form
 $$
-\mathcal{H}_{MF} = -\sum_{ij} \bar{A}_{ij}(\langle s \rangle) s_j.
+\mathcal{H}_{MF} = -\sum_{\langle ij \rangle} \bar{J}_{ij}(\langle s \rangle) s_j.
 $$
 
 It can also identically be achieved by rewriting the Hamiltonian in terms of fluctuations from the mean, and assuming small fluctuations to neglect direct correlations between fluctuations.

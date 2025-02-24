@@ -37,4 +37,9 @@ Alice measures her particles 1 and 2. There are four cases that she can tell Bob
 
 In every case, Bob's particle collapses to the same state that Alice's did.
 
+Referring to [[Bell State Measurement]], Alice's measurement outcomes can be stored on two classical registers with the following interpretations:
+- Classical register for $Z$ correction - if 1, apply $Z$.
+- Classical register for $X$ correction - if 1, apply $X$.
+
+
 A direct application is [[Entanglement swapping]].

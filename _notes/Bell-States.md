@@ -1,11 +1,12 @@
 ---
 tags:
   - Quantum-Information
+  - Reference
 collection: notes
 title: "Bell States"
 permalink: /note/Bell-States/
 ---
-The Bell states are a basis of two-qubit space that are "maximally entangled", in the sense that they violte the [[CHSH Inequality]] by the maximum amount, $2\sqrt{ 2 }$.
+The Bell states are a basis of two-qubit space that are "maximally entangled", in the sense that they violate the [[CHSH Inequality]] by the maximum amount, $2\sqrt{ 2 }$.
 
 $$
 \ket{ \Phi^+ } = \frac{1}{\sqrt{ 2 }} (\ket{ 00 } + \ket{ 11 })

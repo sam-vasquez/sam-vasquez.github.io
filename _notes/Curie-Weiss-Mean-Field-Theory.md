@@ -43,13 +43,15 @@ m = \tanh(\beta J q m).
 $$
 Using the plot as guidance, it has nonzero solutions when the lines $y = m$ and $y = \tanh(\beta J q m)$ intersect. This is only when $\beta J q > 1$. So the **critical temperature** is $T_c = \frac{Jq}{k_B}$.
 
-| Dim | $T_C$ Predicted ($j/k_B$) | $T_C$ True ($J/k_B$) |
-| --- | ------------------------- | -------------------- |
-| 1   | 2                         | 0                    |
-| 2   | 4                         | 2.269                |
-| 3   | 6                         | 4.513                |
-| 4   | 8                         | 6.68                 |
-In the limit of high dimension, the result for critical temperature becomes exact.
+| Dim | $T_C$ Predicted ($j/k_B$) | $T_C$ True ($J/k_B$) | Ratio |
+| --- | ------------------------- | -------------------- | ----- |
+| 1   | 2                         | 0                    |       |
+| 2   | 4                         | 2.269                | 0.567 |
+| 3   | 6                         | 4.513                |       |
+| 4   | 8                         | 6.68                 |       |
+In the limit of high dimension, the result for critical temperature becomes exact. Heuristically, this is because the coordination number increases and each spin has more nearest-neighbors than not.
+
+This MFT fails to consider dimensionality and symmetry. A 2D triangular lattice and 3D simple cubic lattice both have $q=6$, but they don't truly have the same $T_C$.
 
 For $T < T_C$, the solution $m=0$ is unstable, while the nonzero solutions are stable, indicating a physical distinction in phases and thus a phase transition. See https://www.pas.rochester.edu/~stte/phy418S24/units/unit_4-3.pdf
 
@@ -86,11 +88,14 @@ Magnetization at $H=0$:
 $$
 \tau m + \frac{1}{3}m^3 = 0 \implies m = 
 \begin{cases}
-\pm \sqrt{ 3 \tau } & T < T_C \\
+\pm \sqrt{ 3 (-\tau) } & T < T_C \\
 0 & T > T_C
 \end{cases}
 $$
-Thus $\beta^- = \frac{1}{2}$ and $\beta^+ = 0$.
+Thus $\beta^- = \frac{1}{2}$ and $\beta^+ = 0$. 
+This is identical to the result from Landau-Ginzburg theory.
 However, Onsager's exact solution gives $\beta = \frac{1}{8}$.
+
+Can also derive $\chi$ and get $\gamma = 1$. 
 
 Reference: https://www.pas.rochester.edu/~stte/phy418S24/units/unit_4-4.pdf
