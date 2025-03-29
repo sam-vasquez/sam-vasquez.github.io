@@ -12,9 +12,10 @@ The measurement is done using the following circuit:
 The action of the unitary gates is
 $$
 \begin{align}
-(H \otimes I) CNOT_{\mathcal{O}} (H \otimes I) (\ket{ 0 } \otimes \ket{ \psi })
+(H \otimes I) C\mathcal{O} (H \otimes I) (\ket{ 0 } \otimes \ket{ \psi })
 &= (\ket{ + }\bra{ + }\otimes I + \ket{ - } \bra{ - } \otimes \mathcal{O})(\ket{ 0 } \otimes \ket{ \psi })  \\
- & = \frac{1}{\sqrt{ 2 }} \ket{ + } \otimes \ket{ \psi } + \frac{1}{\sqrt{ 2 }} \ket{ - } \otimes (\mathcal{O}\ket{ \psi }).
+ & = \frac{1}{\sqrt{ 2 }} \ket{ + } \otimes \ket{ \psi } + \frac{1}{\sqrt{ 2 }} \ket{ - } \otimes (\mathcal{O}\ket{ \psi })   \\
+&= \frac{1}{\sqrt{ 2 }} \left(  I \otimes (I + \mathcal{O}) \right)(\ket{ 0 } \otimes \ket{ \psi }) + \frac{1}{\sqrt{ 2 }} \left(  I \otimes (I - \mathcal{O}) \right)(\ket{ 1 } \otimes \ket{ \psi })
 \end{align}
 $$
 A measurement in the 0/1 basis results in outcome 0 on the ancillary bit with probability $\frac{1}{2}\bra{ \psi }(1+\mathcal{O})\ket{ \psi }$, and outcome 1 with probability $\frac{1}{2}\bra{ \psi }(1-\mathcal{O})\ket{ \psi }$. In doing so, the state collapses to $\frac{1}{2}(1\pm \mathcal{O})\ket{ \psi }$. This is a projection of the state onto the space of eigenvectors of the operator $\mathcal{O}$.

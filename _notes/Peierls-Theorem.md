@@ -7,7 +7,7 @@ permalink: /note/Peierls-Theorem/
 ---
 Argument for why the 1D [[Ising Model]] (with $H=0$) can be expected to not have a phase transition whereas the 2D model does. It comes down to analyzing the changes in energy, entropy, and free energy necessary to form domain walls between distinct phases.
 
-The [[Exact Solution of 1D Ising Model]] treats it with periodic boundary conditions, that is, a circle with $N$ spins on it. Assuming only two distinct phases, a circle supports exactly one type of domain wall: two spins. There are $N(N-1)$ choices of these spins. The energy required to form this domain wall would be $4J$, from antialignment of the boundary with its 4 neighboring spins. The change in free energy would be  
+The [[Exact Solutions of 1D Ising Model]] treats it with periodic boundary conditions, that is, a circle with $N$ spins on it. Assuming only two distinct phases, a circle supports exactly one type of domain wall: two spins. There are $N(N-1)$ choices of these spins. The energy required to form this domain wall would be $4J$, from antialignment of the boundary with its 4 neighboring spins. The change in free energy would be  
 $$\Delta F = \Delta E - T \Delta S = 4 J- k_B T \ln (N(N-1)) \approx 4J - 2k_B T  \ln N.$$
 This suggests a critical temperature of $T_C = \frac{2J}{k_B \ln N}$ where $\Delta F$ goes from positive to negative. This temperature notably goes to $0$ in the thermodynamic limit, while $\Delta F$ goes negative, and thus by [[Energy Minimization Principles]] it is always favorable to form domain walls, any region with a distinct magnetization will never remain permanently magnetized.
 

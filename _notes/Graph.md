@@ -29,5 +29,8 @@ A cycle in $G$ is a path on adjacent edges that forms a circuit. A tree graph is
 A spanning subgraph $G' = (V,E')$ is a graph containing all vertices but only a subset of edges of $G$. 
 A connected spanning subgraph which is cycle-free (a tree) is called a spanning tree. One that is cycle-free but can be disconnected is a spanning forest.
 
+Example: Square with excess bond. See prob 9.
+
 A graph is planar if it is embeddable in a plane without intersecting edges. The planar dual $G^*$ of planar graph $G$ is a graph with one vertex for every simple cycle of $G$, and edges $E^*$ connecting them through every edge $E$.
 
+Incompressible graphs are those for which short cycles do not share more than one edge.

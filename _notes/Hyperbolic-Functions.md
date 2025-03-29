@@ -25,6 +25,15 @@ $$
 $$
 \cosh(2x) = \sinh^2x + \cosh^2x = 2\cosh^2x - 1.
 $$
+$$
+\sinh(2x) = 2 \sinh x \cosh x
+$$
+$$
+\cosh(x) + \sinh(x) = e^x
+$$
+$$
+\cosh(x) - \sinh(x) = e^{-x}
+$$
 #### Expansions
 $$
 \sinh x \approx x + \frac{1}{3}x^3

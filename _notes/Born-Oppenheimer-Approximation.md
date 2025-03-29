@@ -40,4 +40,4 @@ $$
 H_{nuc} \chi_{nuc} = E \chi_{nuc}.
 $$
 
-This approximation works as long as the nuclei are slow and the molecular energies are gapped. It can be violated by strong correlations between electron and nuclear motion, in the form of non-adiabatic coupling or vibronic coupling. And it can be violated by small gaps that permit those strong couplings, such as is the case for certain state transitions in the form of nonadiabatic reaction dynamics, photochemistry excited states, and [[Jahn-Teller Theorem|Jahn-Teller systems]].
+This approximation works as long as the nuclei are slow and the molecular energies are gapped. It can be violated by strong correlations between electron and nuclear motion, in the form of [[Non-Adiabatic Molecular Dynamics]] or vibronic coupling. And it can be violated by small gaps that permit those strong couplings, such as is the case for certain state transitions in the form of nonadiabatic reaction dynamics, photochemistry excited states, and [[Jahn-Teller Theorem|Jahn-Teller systems]].

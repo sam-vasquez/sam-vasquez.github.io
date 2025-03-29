@@ -5,7 +5,7 @@ collection: notes
 title: "Markov Chains"
 permalink: /note/Markov-Chains/
 ---
-A Markov chain is a stochastic process that describes a sequence of events, in which the probability of each event depends only on the state of the previous event.  
+A Markov process, or Markov chain, is a stochastic process that describes a sequence of events, in which the probability of each event depends only on the state of the previous event.   
 
 A sequence of random variables $X_0, X_1,\cdots$ is a Markov chain with state space $\mathcal{X}$ and transition matrix $P$ if for all $n \in \mathbb{N}$ and $x_i, x_j \in \mathcal{X}$ we have 
 $$

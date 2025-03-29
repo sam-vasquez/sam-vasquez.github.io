@@ -16,3 +16,5 @@ $$
 = \frac{1}{2} \bra{ \psi } (\mathcal{O}^\dagger + \mathcal{O}) \ket{ \psi } = \Re(\langle \mathcal{O} \rangle).
 $$
 This is therefore an indirect measurement of the operator that doesn't collapse the state.  
+
+See also quantum nondemolition measurements: [[Open Quantum Systems]] Sec 2.4.7

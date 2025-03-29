@@ -45,10 +45,10 @@ Using the plot as guidance, it has nonzero solutions when the lines $y = m$ and 
 
 | Dim | $T_C$ Predicted ($j/k_B$) | $T_C$ True ($J/k_B$) | Ratio |
 | --- | ------------------------- | -------------------- | ----- |
-| 1   | 2                         | 0                    |       |
+| 1   | 2                         | 0                    | 0     |
 | 2   | 4                         | 2.269                | 0.567 |
-| 3   | 6                         | 4.513                |       |
-| 4   | 8                         | 6.68                 |       |
+| 3   | 6                         | 4.513                | 0.752 |
+| 4   | 8                         | 6.68                 | 0.835 |
 In the limit of high dimension, the result for critical temperature becomes exact. Heuristically, this is because the coordination number increases and each spin has more nearest-neighbors than not.
 
 This MFT fails to consider dimensionality and symmetry. A 2D triangular lattice and 3D simple cubic lattice both have $q=6$, but they don't truly have the same $T_C$.
@@ -99,3 +99,18 @@ However, Onsager's exact solution gives $\beta = \frac{1}{8}$.
 Can also derive $\chi$ and get $\gamma = 1$. 
 
 Reference: https://www.pas.rochester.edu/~stte/phy418S24/units/unit_4-4.pdf
+
+Critical exponents of 2D MFT vs exact solutions:
+
+| D=2 Ising |       |     |
+| --------- | ----- | --- |
+|           | Exact | MFT |
+| $\alpha$  | 0     | 0   |
+| $\alpha'$ | 0     | 0   |
+| $\beta$   | 1/8   | 1/2 |
+| $\gamma$  | 7/4   | 1   |
+| $\gamma'$ | 7/4   | 1   |
+| $\nu$     | 1     | 1/2 |
+| $\nu'$    | 1     | 1/2 |
+| $\eta$    | 1/4   | 0   |
+| $\delta$  | 15    | 3   |
